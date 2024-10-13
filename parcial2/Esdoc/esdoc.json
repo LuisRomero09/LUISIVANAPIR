@@ -1,0 +1,11 @@
+{
+    "source": "./",
+    "destination": "./docs",
+    "includes": ["**/*.js"],
+    "excludes": ["node_modules", "docs"],
+    "plugins": [
+      {"name": "esdoc-ecmascript-plugin"},
+      {"name": "esdoc-standard-plugin"}
+    ]
+  }
+  

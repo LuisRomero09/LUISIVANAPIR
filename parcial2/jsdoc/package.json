@@ -1,0 +1,16 @@
+{
+  "name": "jsdoc",
+  "version": "1.0.0",
+  "main": "mimodulo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc -c jsdoc.json --readme ./README.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "clean-jsdoc-theme": "^4.3.0"
+  }
+}
